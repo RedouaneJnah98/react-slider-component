@@ -1,4 +1,6 @@
 @import './config';
+@import './hero';
+@import './slider';
 
 * {
   margin: 0;
@@ -8,4 +10,5 @@
 
 body {
   font-family: 'Inter', sans-serif;
+  font-size: 16px;
 }

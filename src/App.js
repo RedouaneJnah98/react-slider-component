@@ -1,11 +1,13 @@
 import React from 'react';
 import Slider from './components/Slider';
+import Hero from './components/Hero';
 
 function App() {
   return (
-    <section>
+    <>
+      <Hero />
       <Slider />
-    </section>
+    </>
   );
 }
 

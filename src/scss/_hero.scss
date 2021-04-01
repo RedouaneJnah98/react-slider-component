@@ -1,0 +1,65 @@
+.patetrn-slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pattern-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 4rem;
+
+  .svg-pattern {
+    max-width: 700px;
+    width: 100%;
+  }
+
+  .pattern-quotes {
+    width: 150px;
+    margin-left: 10rem;
+  }
+}
+
+.center-slider {
+  margin: 0 auto;
+  margin-top: 4rem;
+  // width: 80vw;
+  // height: 450px;
+  max-width: 1200px;
+  // text-align: center;
+  position: relative;
+  display: flex;
+  // overflow: hidden;
+}
+
+.btn-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.btn {
+  padding: 0.5rem;
+  border-color: transparent;
+  background: $white-clr;
+  box-shadow: 0 2.8px 0px rgba(0, 0, 0, 0.034), 0 5.8px 0px rgba(0, 0, 0, 0.014),
+    0 12.8px 0px rgba(0, 0, 0, 0.024), 0 20.8px 0px rgba(0, 0, 0, 0.015);
+
+  &:hover {
+    background: rgba(240, 233, 233, 0.918);
+  }
+}
+
+.prev {
+  border-radius: 40px 0 0 40px;
+}
+.next {
+  border-radius: 0px 40px 40px 0px;
+}
+
+.icon {
+  font-size: 2.3rem;
+  color: $grayish-blue;
+}
